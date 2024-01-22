@@ -8,7 +8,7 @@ import logo9 from './developer-team.svg'
 export default function Home() {
   return (
     <>
-      <div className="container">
+      <div className="container" id="home">
         <div className="row">
           <div className="col p-5 m-5">
             <h3>About Us</h3>
@@ -17,10 +17,7 @@ export default function Home() {
               Innovation Consulting Inc. as GIC), Myanmar (GIC Myanmar Co., Ltd
               ., as GICM), and US (GIC Silicon Valley Lab Inc ., as GSVL). Our
               main business is offshore system development in Japan/Myanmar,
-              including LAB-type and contract development. In the US, we also
-              play a role in conducting various investigations on advanced cases
-              such as DX and IoT. Our company was established in April 2011 by
-              the current three directors. 
+              including LAB-type and contract development. 
             </p>
           </div>
           <div className="col  m-5">

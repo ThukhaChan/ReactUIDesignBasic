@@ -54,9 +54,9 @@ export default function Example() {
               field="layout-titles-skin-2-mw-module-1704369942076"
               rel="module"
             >
-              <div className="row text-center mb-1">
+              <div className="row text-center mb-5">
                 <div className="col-lg-12 mx-auto">
-                  <h1 className="mb-1 element">Service</h1>
+                  <h1 className="mb-3 element">Service</h1>
                 </div>
               </div>
             </div>
@@ -224,33 +224,18 @@ export default function Example() {
                 >
                   <ul className="pagination d-flex justify-content-center align-items-center">
                     <li className="page-item">
-                      <a className="page-link" href="#header">
+                      <a className="page-link" href="./Header.js">
                         1{" "}
                       </a>
                     </li>
                     <li className="page-item">
-                      <a className="page-link" href="#about">
+                      <a className="page-link" href="./Home.js">
                         2{" "}
                       </a>
                     </li>
                   </ul>
-                </div>
+                {/* </div> */}
               </div>
-            </div>
-            <div
-              className=" module module-spacer "
-              data-mw-title="Spacer"
-              id="spacer-layout--module-layouts-1--5-bottom"
-              parent-module-id="module-layouts-1--5"
-              parent-module="layouts"
-              data-type="spacer"
-            >
-              {/* <style
-                dangerouslySetInnerHTML={{
-                  __html:
-                    "\n    #spacer-layout--module-layouts-1--5-bottom, .mw-spacer-disable-settings--spacer-layout--module-layouts-1--5-bottom{\n        pointer-events: none;\n    }\n",
-                }}
-              /> */}
             </div>
           </section>
         </div>

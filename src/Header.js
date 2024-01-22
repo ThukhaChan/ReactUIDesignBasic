@@ -5,7 +5,7 @@ const navbar = {backgroundColor: 'red'};
 export default function Header() {
   return (
     <>
-      <div>
+      <div id="header">
           <nav className="navbar navbar-expand-lg bg-secondary-subtle">
             <div className="container">
               {/* <img src={logo} className='App-logo' alt='logo'></img> */}
@@ -14,7 +14,7 @@ export default function Header() {
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   
                 </ul>
-                  <a className="page-link active p-3" href="./Home.js">
+                  <a className="page-link active p-3" href="#home">
                   {/* <a className="nav-link active p-3" aria-current="page" href="#"> */}
                       Home
                     </a>

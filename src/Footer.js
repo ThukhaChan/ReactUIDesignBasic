@@ -7,20 +7,20 @@ export default function Footer() {
   return (
     <>
       <div className="bg-secondary-subtle">
-        <div className="d-flex flex-row p-5">
+        <div className="d-flex flex-row p-1 m-5">
           {/* <div className="row text-md-start text-center bg-body-tertiary"> */}
-          <div className="col p-1 m-5">
+          <div className="col p-1 w-100px">
             <small>
                 Yangon
             </small>
-            <p className="mt-2 element">
+            <p className="mt-1 element">
               No.67,khaing shwe Wah,baho road,kamayut Township Yangon
               09-972425310,09457086030
             </p>
           </div>
-          <div className="col p-1 m-5">
+          <div className="col p-1 w-100px">
             <small>Mandalay</small>
-            <p className="mt-2 element">
+            <p className="mt-1 element">
               No.816,Between 62nd street x 63rd street ,Between 30th street x
               32nd street,Myitter street,Pyi Gyi Myat Shin quarter,Chan Aye Thar
               San Township,mandalay ,09423385177
@@ -40,24 +40,25 @@ export default function Footer() {
               </div>
               <div class="col-sm-6 mb-0 noedit text-md-end text-center">
                 <small>
-                  <span class="mw-powered-by">
+                  {/* <span class="mw-powered-by">
                     <a
                       class="tblr-body-color"
                       href="https://microweber.com/"
                       title="Create website"
-                    >
-                      Create a website
-                    </a>{" "}
-                    with{" "}
+                    > */}
+                      Global Innovation Consulting
+
+                    {/* </a>{" "}
+                    {" "}
                     <a
                       class="tblr-body-color"
                       href="https://microweber.org"
                       target="_blank"
                       title="Website Builder"
                     >
-                      Microweber
+                      
                     </a>
-                  </span>{" "}
+                  </span>{" "} */}
                 </small>
               </div>
             </div>
