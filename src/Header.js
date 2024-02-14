@@ -1,7 +1,6 @@
 import React from "react";
-import logo from "./logo.jpg";
+// import logo from "./logo.jpg";
 import './About'
-const navbar = {backgroundColor: 'red'};
 export default function Header() {
   return (
     <>
